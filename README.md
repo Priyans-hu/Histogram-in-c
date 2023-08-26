@@ -1,1 +1,1 @@
-# C.proj
+# Histogram in C
