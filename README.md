@@ -9,7 +9,7 @@ This C library provides a function to generate a histogram representation of an 
    Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/priyans-hu/histogram-library.git
+   git clone https://github.com/Priyans-hu/Histogram-in-c.git
    cd histogram-library
 
 2. **Include the Library:**
