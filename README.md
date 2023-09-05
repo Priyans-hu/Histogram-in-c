@@ -1,6 +1,6 @@
 # Histogram Generator Library
 
-![Sample Histogram](images/sample_histogram.png)
+![Sample Histogram](images/histogram.png)
 
 The Histogram Generator Library is a C library that empowers you to create histograms from arrays of integers effortlessly. With this library, you can customize the width of each bar and even scale down larger values for optimal visualization. Visualize your data in a meaningful and insightful way.
 
@@ -54,6 +54,9 @@ int scale = 10;   // Adjust the scale (unit size of bars) for larger values
 
 generateHistogram(arr, size, barWidth, scale);
 ```
+
+![Input](images/input.png)
+
 ## Customization
 
 You can customize the appearance and scale of your histograms to suit your specific needs. Experiment with different bar widths and scales to achieve the perfect visualization for your data.
