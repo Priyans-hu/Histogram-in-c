@@ -1,36 +1,74 @@
 # Histogram Generator Library
 
-This C library provides a function to generate a histogram representation of an array of integers. The library allows you to customize the width of each bar and provides the option to scale down larger values for better visualization.
+![Sample Histogram](images/sample_histogram.png)
+
+The Histogram Generator Library is a C library that empowers you to create histograms from arrays of integers effortlessly. With this library, you can customize the width of each bar and even scale down larger values for optimal visualization. Visualize your data in a meaningful and insightful way.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Pre-Requisites](#pre-requisites)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Customizable Histograms:** Tailor the appearance of your histograms by adjusting the width of individual bars.
+- **Scaling Options:** Scale down larger values for improved visualization.
+- **User-Friendly Interface:** Simplify the process of generating histograms from integer arrays.
+- **Cross-Platform:** The library is designed for cross-platform use, making it suitable for various operating systems.
 
 ## Getting Started
 
-1. **Clone the Repository:**
+### Clone the Repository
 
-   Clone this repository to your local machine:
+Begin by cloning this repository to your local machine:
 
-   ```sh
-   git clone https://github.com/Priyans-hu/Histogram-in-c.git
-   cd histogram-library
+```bash
+git clone https://github.com/priyans-hu/Histogram-in-C.git
+cd Histogram-in-C
+```
+## Include the Library
 
-2. **Include the Library:**
+Place the `histogram_generator.h` header file in your project directory.
 
-   Place the histogram_generator.h header file in your project directory.
+## Include the Header
 
-3. **Include the Header:**
+Include the histogram_generator.h header at the beginning of your C code file where you intend to use the library:
 
-   In your C code where you want to use the library, include the histogram_generator.h header at the top of your file:
+```bash
+#include "histogram_generator.h"
+```
 
-   ```sh
-   #include "histogram_generator.h"
+## Generate a Histogram
 
-4. **Call the Function:**
+To utilize the library's powerful functionality, call the generateHistogram function within your code (usually within the main function):
 
-   To use the library's functionality, call the generateHistogram function from your code (i.e. int main()):
+```bash
+int arr[] = {10, 25, 50, 75, 100};
+int size = sizeof(arr) / sizeof(arr[0]);
+int barWidth = 5; // Adjust the width of each bar
+int scale = 10;   // Adjust the scale (unit size of bars) for larger values
 
-   ```sh
-   int arr[] = {10, 25, 50, 75, 100};
-   int size = sizeof(arr) / sizeof(arr[0]);
-   int barWidth = 5; // Adjust the width of each bar
-   int scale = 10;   // Adjust the scale(unit size of bars) for larger values
-   
-   generateHistogram(arr, size, barWidth, scale);
+generateHistogram(arr, size, barWidth, scale);
+```
+## Customization
+
+You can customize the appearance and scale of your histograms to suit your specific needs. Experiment with different bar widths and scales to achieve the perfect visualization for your data.
+
+## Contributing
+
+Contributions to this project are welcome! If you'd like to contribute, please follow these guidelines:
+
+Fork the repository.
+- Create a new branch: git checkout -b feature/your-feature-name.
+- Make your changes and commit them: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature/your-feature-name.
+- Open a pull request to the main branch of this repository.
+
+ ## License
+
+ This library is licensed under the [MIT License](LICENSE).
