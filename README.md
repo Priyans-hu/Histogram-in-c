@@ -8,7 +8,6 @@ The Histogram Generator Library is a C library that empowers you to create histo
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Pre-Requisites](#pre-requisites)
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
