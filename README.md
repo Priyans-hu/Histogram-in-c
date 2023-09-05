@@ -1,6 +1,7 @@
 # Histogram Generator Library
 
 ![Input](images/input.png)
+
 ![Sample Histogram](images/histogram.png)
 
 The Histogram Generator Library is a C library that empowers you to create histograms from arrays of integers effortlessly. With this library, you can customize the width of each bar and even scale down larger values for optimal visualization. Visualize your data in a meaningful and insightful way.
